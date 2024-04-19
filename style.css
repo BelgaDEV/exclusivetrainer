@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+
+    font-family: "Open Sans", sans-serif;
+    
+    background: linear-gradient(180deg, rgba(227,255,248,0) 82.08%, rgba(227,255,248,0.38) 100%);
+
+    min-height: 100vh;
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 55px;
+
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    opacity: 0.5;
+}
+
+/*remover linha em baixo do texto*/
+
+ul li a {
+    color: #1F1534;
+    text-decoration: none;
+    opacity: 1.0;
+}
+
+
+/* pseudo-class - efeito ao passar mouse no texto */
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+/* adicionar a fonte ao h1*/
+
+h1,ul {
+
+    font-family: "Mulish", sans-serif;
+}
+
+/* caixa main alinhando elementos */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* tamanho, cor e fonte do texto maior h1 */
+
+h1 {
+    font-size: 49px;
+    line-height: 56px;
+    color: #000;
+
+    font-weight: normal;
+
+    /*largura do h1 ou quebra de linha feita no CSS */
+
+    width: 490px;
+}
+
+/* coloração da palavra 'EXCLUSIVO' na cor verde */
+
+h1 span {
+    color:#89C5CC;
+    font-weight: bold;
+}
+
+/* texto abaixo do h1, mudando seu tamanho, largura e cor */
+
+section p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+
+    margin: 40px 0;
+}
+
+/* tranformar texto para caixa alta e modelo de escrita*/
+
+button{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+
+    background: #69B99D;
+    border: 0;
+    padding: 14px 32px 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background: #32896b;
+}
+
+/* ultima linha da pagina mudando tamanho e largura */
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
