@@ -18,7 +18,7 @@ Projeto exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologi
 <br>
 
 <p align="center">
-  <img alt="Treinos Exclusivos" src="./github/exclusivetrainer/images/fitness-jump.png" width="50%">
+  <img alt="Treinos Exclusivos" src="/images/fitness-jump.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
